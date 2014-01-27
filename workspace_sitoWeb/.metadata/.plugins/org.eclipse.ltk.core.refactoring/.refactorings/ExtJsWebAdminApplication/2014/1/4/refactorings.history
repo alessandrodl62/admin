@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource '/ExtJsWebAdminApplication/app/index.html' to 'index_vecio'&#10;- Original element: 'index.html'" description="Rename resource 'index.html'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="app/index.html" name="index_vecio" stamp="1390582812720" version="1.0"/>
+</session>

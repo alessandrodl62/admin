@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="J2EE_EXPORT_SOURCE" value="false"/>
+	<item key="LASTEARNAME_" value="webAdminEAR"/>
+	<item key="J2EE_EXPORT_OVERWRITE" value="true"/>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="/home/alessandrodl/applicationWebAdmin.war"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="NULL_RUNTIME"/>
+		<item value="jboss4.0.5"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="/home/alessandrodl/Documenti/webAdminEAR.ear"/>
+		<item value="/usr/local/jboss-4.0.5.GA/server/default/deploy/webAdminEAR.ear"/>
+	</list>
+</section>

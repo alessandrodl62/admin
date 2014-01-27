@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.jdt.aop.core.classpath.AOP_15_CONTAINER"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.jdt.ejb3.wizards.core.classpath.EJB3_CONTAINER/jboss4.0.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.5.0_22"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="src/lib/ezmorph-1.0.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/json-lib-2.1-jdk15.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-lang-2.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-net-1.2.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-pool-1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/MimeType.jar"/>
+	<classpathentry kind="lib" path="src/lib/pd4ml.jar"/>
+	<classpathentry kind="lib" path="src/lib/ss_css2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

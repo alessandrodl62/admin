@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryInfos>
+<libraryInfo home="/usr/local/bin/jdk1.5.0_22/jre" version="1.5.0_22">
+<bootpath>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/rt.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/i18n.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/sunrsasign.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/jsse.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/jce.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/charsets.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/usr/local/bin/jdk1.5.0_22" version="1.5.0_22">
+<bootpath>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/rt.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/i18n.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/sunrsasign.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/jsse.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/jce.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/charsets.jar"/>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/local/bin/jdk1.5.0_22/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

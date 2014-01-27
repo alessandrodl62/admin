@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Anagrafica</title>
+	<link rel="stylesheet" type="text/css" href="/webAdminApplication/ext/resources/css/ext-all.css"/> 
+	<script type="text/javascript" src="/webAdminApplication/ext/adapter/ext/ext-base.js"></script> 
+	<script type="text/javascript" src="/webAdminApplication/ext/ext-all.js"></script>
+	
+	
+
+	<script type="text/javascript" src="organiLista.js"></script>
+	<style>
+		.x-grid3-col-0{background: no-repeat url(../img/Window_Edit.gif) !important; padding-left: 18px}
+		.x-trigger-search{background: url(../images/default/form/search-trigger.gif) !important}
+	</style>
+
+</head>
+<body onLoad=”organiLista.js”>
+<h2>Pippo e pluto</h2>
+
+</body>
+</html>

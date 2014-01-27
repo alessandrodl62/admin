@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.eclipse.ant.AntLaunchConfigurationType">
+<stringAttribute key="process_factory_id" value="org.eclipse.ant.ui.remoteAntProcessFactory"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.ant.internal.ui.antsupport.InternalAntRunner"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="true"/>
+<mapAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_PROPERTIES">
+<mapEntry key="server.publish.dir" value="/usr/local/jboss-4.0.5.GA/server/default/deploy"/>
+<mapEntry key="module.dir" value="/home/alessandrodl/workspace_sitoWeb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/webAdminWeb"/>
+<mapEntry key="project.working.dir" value="/home/alessandrodl/workspace_sitoWeb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0"/>
+<mapEntry key="module.name" value="webAdminWeb"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/home/alessandrodl/bin/eclipse/plugins/org.jboss.ide.eclipse.as.core_1.0.0.Beta2/META-INF/jboss.publish.xml"/>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.ant.ui.AntClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.ant.ui.AntClasspathProvider"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_TARGETS" value="undeploy.j2ee.web"/>
+</launchConfiguration>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+<wb-module deploy-name="intrawebEAR">
+<wb-resource deploy-path="/" source-path="/EarContent"/>
+<dependent-module deploy-path="/" handle="module:/resource/intrawebWeb/intrawebWeb">
+<dependent-object>WebModule_1361791727706</dependent-object>
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module archiveName="intrawebEJB.jar" deploy-path="/" handle="module:/resource/intrawebEJB/intrawebEJB">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+</wb-module>
+</project-modules>

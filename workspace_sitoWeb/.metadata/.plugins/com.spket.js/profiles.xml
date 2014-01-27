@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles>
+<profile id="ExtJs" name="ExtJs">use namespace ExtJS;
+include '/home/alessandrodl/Documenti/webAdminApplication/ext/ext-all.js';
+</profile>
+</profiles>

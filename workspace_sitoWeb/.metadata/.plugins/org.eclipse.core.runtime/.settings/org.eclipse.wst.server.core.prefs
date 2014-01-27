@@ -1,0 +1,4 @@
+#Mon Oct 21 10:33:41 CEST 2013
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8"?>\n<runtimes>\n<runtime PROPERTY_CONFIG_NAME_\="default" PROPERTY_VM_ID\="1382024887836" PROPERTY_VM_TYPE_ID\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType" id\="jboss4.0.5" location\="/usr/local/jboss-4.0.5.GA" name\="jboss4.0.5" runtime-type-id\="org.jboss.ide.eclipse.as.runtime.40" timestamp\="0"/>\n</runtimes>\n
+eclipse.preferences.version=1

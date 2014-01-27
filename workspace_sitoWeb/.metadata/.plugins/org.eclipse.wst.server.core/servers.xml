@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+<server hostname="localhost" id="17_10_13_17.285" name="JBOSS 4.0" runtime-id="JBoss v4.0" server-type="org.eclipse.jst.server.generic.jboss4" server-type-id="org.eclipse.jst.server.generic.jboss4" timestamp="0">
+<map jndiPort="1099" key="generic_server_instance_properties" port="8080" serverAddress="127.0.0.1" serverConfig="default"/>
+</server>
+<server hostname="localhost" id="17_10_13_17.328" name="JBOSS 4.0 1" runtime-id="JBoss v4.0" server-type="org.eclipse.jst.server.generic.jboss4" server-type-id="org.eclipse.jst.server.generic.jboss4" timestamp="0">
+<map jndiPort="1099" key="generic_server_instance_properties" port="8080" serverAddress="127.0.0.1" serverConfig="default"/>
+</server>
+<server hostname="localhost" id="17_10_13_17.493" name="JBOSS 4.0 2" runtime-id="JBoss v4.0" server-type="org.eclipse.jst.server.generic.jboss4" server-type-id="org.eclipse.jst.server.generic.jboss4" timestamp="0">
+<map jndiPort="1099" key="generic_server_instance_properties" port="8080" serverAddress="127.0.0.1" serverConfig="default"/>
+</server>
+<server configuration-id="/Servers/jboss4.0.5" hostname="localhost" id="21_10_13_10.342" name="jboss4.0.5" runtime-id="jboss4.0.5" server-type="org.jboss.ide.eclipse.as.40" server-type-id="org.jboss.ide.eclipse.as.40" timestamp="3">
+<list key="modules"/>
+</server>
+</servers>

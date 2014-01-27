@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SynchronizeWizard">
+		<item key="org.eclipse.team.uiGlobalRefreshWizardSelectionPage.default_selection" value="org.eclipse.team.cvs.ui.ModelSynchronizeWizard"/>
+	</section>
+</section>

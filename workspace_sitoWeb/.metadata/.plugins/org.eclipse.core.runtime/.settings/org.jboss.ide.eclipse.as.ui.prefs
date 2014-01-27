@@ -1,0 +1,6 @@
+#Mon Oct 21 16:59:17 CEST 2013
+EXTENSION_ENABLED_org.jboss.ide.eclipse.as.ui.InactiveExtensionsProvider=true
+EXTENSION_ENABLED_org.jboss.ide.eclipse.as.ui.ViewProvider1=true
+eclipse.preferences.version=1
+EXTENSION_ENABLED_org.jboss.ide.eclipse.as.ui.EventLogProvider=true
+EXTENSION_ENABLED_org.jboss.ide.eclipse.as.ui.ModulesViewProvider=true

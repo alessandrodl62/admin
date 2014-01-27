@@ -1,0 +1,23 @@
+<persistence>
+	
+   <persistence-unit name="webadmin">  	
+    <class>commonBean.OrganiDO</class>
+    <class>commonBean.OrariOrganiDO</class>
+    <class>commonBean.OrganiTipoDO</class>
+    <class>commonBean.ReferatiDO</class>
+    <class>commonBean.SediDO</class>
+    <class>commonBean.SettoriDO</class>
+    <class>commonBean.TipoOrgDO</class>
+    <class>commonBean.UfficiDO</class>
+    <class>commonBean.UtentiDO</class>
+    
+    <exclude-unlisted-classes/>
+  
+  <jta-data-source>java:/WebDS</jta-data-source>
+    <properties>
+      <property name="hibernate.show_sql " value="false"/> 	
+      <property name="hibernate.hbm2ddl.auto"/>
+    </properties>
+  </persistence-unit>  
+  
+</persistence>

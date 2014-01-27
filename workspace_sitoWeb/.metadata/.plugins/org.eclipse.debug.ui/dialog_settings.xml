@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FAVORITES_DIALOG_SECTION">
+		<item key="DIALOG_X_ORIGIN" value="486"/>
+		<item key="DIALOG_HEIGHT" value="274"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|10|0|GTK|1|"/>
+		<item key="DIALOG_Y_ORIGIN" value="285"/>
+		<item key="DIALOG_WIDTH" value="244"/>
+	</section>
+	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATIONS_DIALOG_SECTION">
+		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1" value="291"/>
+		<item key="DIALOG_X_ORIGIN" value="208"/>
+		<item key="DIALOG_HEIGHT" value="640"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|10|0|GTK|1|"/>
+		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value="org.eclipse.jdt.launching.javaApplet, org.eclipse.jdt.launching.localJavaApplication, "/>
+		<item key="DIALOG_Y_ORIGIN" value="41"/>
+		<item key="DIALOG_WIDTH" value="900"/>
+		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2" value="704"/>
+	</section>
+</section>

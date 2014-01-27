@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ===================================================================== -->
+<!--                                                                       -->
+<!--  JBoss Server Configuration                                           -->
+<!--                                                                       -->
+<!-- ===================================================================== -->
+
+<!-- $Id: territorio-ds.xml,v 1.1 2008/09/30 11:10:49 alessdl Exp $ -->
+<!-- ==================================================================== -->
+<!--  Datasource config for Postgres                                      -->
+<!-- ==================================================================== -->
+
+
+<datasources>
+  <local-tx-datasource>
+    <jndi-name>TerritorioDS</jndi-name>
+    <connection-url>jdbc:postgresql://127.0.0.1/territorio</connection-url>
+    <driver-class>org.postgresql.Driver</driver-class>
+    <user-name>postgres</user-name>
+    <password>postgres</password>
+        <!-- sql to call when connection is created
+        <new-connection-sql>some arbitrary sql</new-connection-sql>
+        -->
+
+        <!-- sql to call on an existing pooled connection when it is obtained from pool 
+        <check-valid-connection-sql>some arbitrary sql</check-valid-connection-sql>
+        -->
+
+  </local-tx-datasource>
+
+</datasources>

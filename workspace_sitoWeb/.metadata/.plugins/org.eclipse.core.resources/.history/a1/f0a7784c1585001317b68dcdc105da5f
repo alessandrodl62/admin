@@ -1,0 +1,44 @@
+Ext.onReady(function(){
+	Ext.QuickTips.init();
+	
+	var fieldsOrgani = [
+		{name:'tor_denom', type:'string'},
+		{name:'tor_id', type:'integer'}
+	
+	]
+	
+	var dsOrgani = new Ext.data.JsonStore({
+		url:'/webAdminWeb/organi/listaorgani',
+		fields:fieldsOrgani,
+		autoLoad:true
+	
+	});
+	
+	var columnsOrgani = [
+		{header: 'organo', width:80, dataIndex:'tor_denom'}
+	]
+	
+	var center = new Ext.grid.GridPanel({
+		region: 'center',
+		height:400,
+		autoWidth:true,
+		loadMask:true,
+		ds:dsOrgani,
+		columns:columnsOrgani
+	});
+
+	var vp = new Ext.Panel({
+		layout:'border',
+		items:[center]
+	});
+	
+	var win = new Ext.Window({
+		layout:'fit',
+		width:800,
+		height:350,
+		items:[vp]
+	});
+
+	win.show();
+
+});

@@ -1,0 +1,4 @@
+#Mon Sep 29 14:50:59 CEST 2008
+classpath.helper/org.eclipse.jdt.launching.JRE_CONTAINER\:\:org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType\:\:jdk1.5.0_02/owners=jst.java\:5.0
+classpath.helper/org.jboss.ide.eclipse.as.core.runtime.ProjectInitializer\:\:jboss405\:\:jst.web\:\:2.4/owners=jst.web\:2.4
+eclipse.preferences.version=1

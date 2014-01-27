@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename package 'commomBean' to 'commonBean'&#10;- Original element: 'webAdminEJB/src/commomBean'&#10;- Renamed element: 'webAdminEJB/src/commonBean'&#10;- Update references to refactored element&#10;- Update textual occurrences in comments and strings" description="Rename package 'commomBean'" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;commomBean" name="commonBean" qualified="false" references="true" stamp="1384160151221" textual="false" version="1.0"/>
+</session>

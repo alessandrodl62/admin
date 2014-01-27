@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource '/ExtJsWebAdminAppResources/ext4' to 'extjs'&#10;- Original element: 'ext4'" description="Rename resource 'ext4'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="ext4" name="extjs" stamp="1384440306948" version="1.0"/>
+</session>

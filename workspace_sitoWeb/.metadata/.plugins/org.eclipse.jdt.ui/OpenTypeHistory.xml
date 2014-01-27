@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeInfoHistroy>
+<typeInfo enclosingTypes="" modifiers="1537" name="Serializable" package="java.io" path="/usr/local/bin/jdk1.5.0_22/jre/lib/rt.jar|java/io/Serializable.class" timestamp="1381758521000"/>
+<typeInfo enclosingTypes="" modifiers="1057" name="HttpServlet" package="javax.servlet.http" path="/usr/local/jboss-4.0.5.GA/client/javax.servlet.jar|javax/servlet/http/HttpServlet.class" timestamp="1161056562000"/>
+<typeInfo enclosingTypes="" modifiers="1537" name="Servlet" package="javax.servlet" path="/usr/local/jboss-4.0.5.GA/client/javax.servlet.jar|javax/servlet/Servlet.class" timestamp="1161056562000"/>
+</typeInfoHistroy>

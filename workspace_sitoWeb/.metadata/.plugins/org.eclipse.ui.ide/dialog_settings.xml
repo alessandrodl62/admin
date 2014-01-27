@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.spket.sted:1.6.23"/>
+		<item value="com.spket.ui:1.6.23"/>
+		<item value="org.eclipse.emf.ecore.sdo:2.2.0.v200609210005"/>
+		<item value="org.eclipse.emf:2.2.1.v200609210005"/>
+		<item value="org.eclipse.gef:3.2.1.v20060921"/>
+		<item value="org.eclipse.jdt.source:3.2.1.r321_v20060905-R4CM1Znkvre9wC-"/>
+		<item value="org.eclipse.jdt:3.2.1.r321_v20060905-R4CM1Znkvre9wC-"/>
+		<item value="org.eclipse.jem:1.2.1.v20060815_M----6zXJJzKIRGVU"/>
+		<item value="org.eclipse.jst:1.5.1.v200609111510-kW-O_zxPud7GuJG"/>
+		<item value="org.eclipse.pde.source:3.2.1.r321_v20060823-6vYLLdQ3Nk8DrFG"/>
+		<item value="org.eclipse.pde:3.2.1.r321_v20060823-6vYLLdQ3Nk8DrFG"/>
+		<item value="org.eclipse.platform.source:3.2.1.r321_v20060921-b_XVA-INSQSyMtx"/>
+		<item value="org.eclipse.platform:3.2.1.r321_v20060921-b_XVA-INSQSyMtx"/>
+		<item value="org.eclipse.rcp.source:3.2.1.r321_v20060801-2ekW2BxmcpPUOoq"/>
+		<item value="org.eclipse.rcp:3.2.1.r321_v20060801-2ekW2BxmcpPUOoq"/>
+		<item value="org.eclipse.sdk:3.2.1.r321_v20060801-tQ1w49KnTArT0FZ"/>
+		<item value="org.eclipse.wst:1.5.1.v200609111500-X3TmmF3AeboB5EW"/>
+		<item value="org.eclipse.xsd:2.2.1.v200609210005"/>
+		<item value="org.hibernate.eclipse.feature:3.2.0.beta8"/>
+	</list>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="346"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|10|0|GTK|1|"/>
+		<item key="DIALOG_HEIGHT" value="600"/>
+		<item key="DIALOG_Y_ORIGIN" value="67"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+	</section>
+	<section name="org.eclipse.ui.views.task">
+	</section>
+	<section name="DialogMarkerPropertiesDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="240"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|10|0|GTK|1|"/>
+		<item key="DIALOG_HEIGHT" value="346"/>
+		<item key="DIALOG_Y_ORIGIN" value="237"/>
+		<item key="DIALOG_WIDTH" value="737"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="341"/>
+		<item key="DIALOG_HEIGHT" value="439"/>
+		<item key="DIALOG_Y_ORIGIN" value="212"/>
+		<item key="DIALOG_WIDTH" value="542"/>
+		<item key="TOGGLE_SELECTED" value="true"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.jboss.ide.eclipse.ejb3.wizards.ui.ejb3Category"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.views.problem">
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1381760444512"/>
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="333"/>
+		<item key="DIALOG_HEIGHT" value="319"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|10|0|GTK|1|"/>
+		<item key="DIALOG_Y_ORIGIN" value="253"/>
+		<item key="DIALOG_WIDTH" value="548"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

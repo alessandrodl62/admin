@@ -1,0 +1,54 @@
+<persistence>
+	
+  <persistence-unit name="gestionale">
+    
+    <exclude-unlisted-classes/>
+  
+    <jta-data-source>java:/GestionaleDS</jta-data-source>
+    <properties>
+      <property name="hibernate.show_sql " value="false"/> 	
+      <property name="hibernate.hbm2ddl.auto"/>
+    </properties>
+  </persistence-unit>
+  	
+  <persistence-unit name="anagrafe">  	
+    <class>intraweb.dbpubblica</class>
+    <class>intraweb.dbpubblicaalleg</class>
+    
+    <exclude-unlisted-classes/>
+  
+  <jta-data-source>java:/sysoracleDS</jta-data-source>
+    <properties>
+      <property name="hibernate.show_sql " value="false"/> 	
+      <property name="hibernate.hbm2ddl.auto"/>
+    </properties>
+  </persistence-unit>
+  
+  <persistence-unit name="webdb">  	
+    <class>intraweb.UtentiTrasWebProxy</class> 
+    <class>intraweb.UfficiTrasWebProxy</class>
+    <class>intraweb.Modassegnazione</class>
+    <class>intraweb.Traspubblicazioni</class>
+    <class>intraweb.SettoriWebiProxy</class>
+    <class>intraweb.AutxtipopubiProxy</class>
+    <class>intraweb.TipoPubbliProxy</class>
+    <class>intraweb.PubblicazioniWebiProxy</class>
+    <class>intraweb.LinkPubblicazioniWebiProxy</class>
+    <class>intraweb.MasterUrlWebiProxy</class>
+    <class>intraweb.PraticheWebiProxy</class>
+    <class>intraweb.Ariprati</class>
+    <class>intraweb.Arsprati</class>
+    <class>intraweb.LinkPraticheWebiProxy</class>
+    <class>intraweb.PratPubblicazioniWebiProxy</class>
+    <class>intraweb.LogTableiProxy</class>
+    
+    <exclude-unlisted-classes/>
+  
+  <jta-data-source>java:/WebDS</jta-data-source>
+    <properties>
+      <property name="hibernate.show_sql " value="false"/> 	
+      <property name="hibernate.hbm2ddl.auto"/>
+    </properties>
+  </persistence-unit>  
+  
+</persistence>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>
+	intrawebWeb</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>
+		Intraweb</display-name>
+		<servlet-name>Intraweb</servlet-name>
+		<servlet-class>
+		IntrawebRpc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Intraweb</servlet-name>
+		<url-pattern>/intraweb/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<filter>
+	  <filter-name>
+	   IntrawebConfig</filter-name>
+	  <filter-class>
+	   filters.IntrawebConfig</filter-class>
+	</filter>
+	     
+	<filter-mapping>
+	  <filter-name>IntrawebConfig</filter-name>
+	  <url-pattern>/intraweb/*</url-pattern>
+	</filter-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+	  <servlet-name>org.jabsorb.JSONRPCServlet</servlet-name>
+	  <servlet-class>org.jabsorb.JSONRPCServlet</servlet-class>
+	  <init-param>
+	    <param-name>gzip_threshold</param-name>
+	    <param-value>200</param-value>
+	  </init-param>
+	</servlet>
+	
+	<servlet-mapping>
+	  <servlet-name>org.jabsorb.JSONRPCServlet</servlet-name>
+	  <url-pattern>/JSON-RPC</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>

@@ -1,0 +1,63 @@
+/**
+ * @author alessandrodl ottobre 2013
+ */
+package commonSession;
+
+import java.sql.Date;
+import java.sql.Time;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.apache.commons.beanutils.ConvertUtils;
+import org.apache.commons.beanutils.locale.converters.DateLocaleConverter;
+
+import commonBean.OrganiDO;
+
+import net.sf.json.JSONArray;
+import net.sf.json.JsonConfig;
+
+@Stateless(name="PersistWebadminFacadeBean")
+
+public class PersistWebadminFacadeBean implements PersistWebadminFacade {
+
+	@PersistenceContext(unitName="webadmin") EntityManager WebAdminEM;
+	
+	private JsonConfig JsConf = new JsonConfig();
+	
+	
+	
+	public PersistWebadminFacadeBean() {
+	    super();
+	    JsConf.registerJsonValueProcessor(Timestamp.class, new DateJsonValueProcessor());
+	    JsConf.registerJsonValueProcessor(Date.class, new DateJsonValueProcessor());
+	    JsConf.registerJsonValueProcessor(java.sql.Date.class, new DateJsonValueProcessor());
+	    JsConf.registerJsonValueProcessor(Time.class, new TimeJsonValueProcessor());
+	  }
+	
+	
+	/* (
+	 * @see commonSession.PersistWebadminFacade#resultQuery(java.util.Map, java.lang.String, java.lang.String)
+	 * 
+	 */
+	public List listOrgani() throws Exception {
+				
+		return WebAdminEM.createNamedQuery("OrganiDO.selectAll").getResultList();
+		
+	}
+
+	public String jsonArrayListOrgani() throws Exception {
+		
+		
+	    
+		  return JSONArray.fromObject(listOrgani()).toString();
+		  
+	  }
+	
+}

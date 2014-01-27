@@ -1,0 +1,42 @@
+<persistence>
+	
+ 
+    <persistence-unit name="gestionale">
+    <class>commonBean.AnagRichProxy</class>
+    <class>commonBean.ProcedureAdressesProxy</class>
+    <class>commonBean.AnagProfessioni</class>
+    <class>commonBean.AnagRichBasicProxy</class>
+    <class>commonBean.AnagProfBasicProxy</class>
+    <class>commonBean.Attivita</class>
+    <class>commonBean.EnteProxy</class>
+    <class>commonBean.GruppiProxy</class>
+    <class>commonBean.TipoUnit</class>
+    <class>commonBean.UtentiProxy</class>
+    <class>commonBean.OrgUnit</class>
+    
+    <exclude-unlisted-classes/>
+  
+    <jta-data-source>java:/GestionaleDS</jta-data-source>
+    <properties>
+      <property name="hibernate.hbm2ddl.auto"  value="update"/>
+      <property name="hibernate.show_sql" value="false"/> 	
+    </properties>
+  </persistence-unit>
+  
+  
+  <persistence-unit name="territorio">
+    <class>commonBean.EcoAttAutRumore</class>
+    <class>commonBean.EcoAttAutRumoreProxy</class>
+    <class>commonBean.EcoAttAutRumoreRicettori</class>
+    <class>commonBean.EcoAttAutRumoreRicettoriProxy</class>
+    
+    <exclude-unlisted-classes/>
+  
+    <jta-data-source>java:/TerritorioDS</jta-data-source>
+    <properties>
+      <property name="hibernate.hbm2ddl.auto"  value="update"/>
+      <property name="hibernate.show_sql" value="false"/> 	
+    </properties>
+  </persistence-unit>
+  
+</persistence>

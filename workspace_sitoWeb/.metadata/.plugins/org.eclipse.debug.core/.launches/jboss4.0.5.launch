@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.jboss.ide.eclipse.as.core.jbossLaunch">
+<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;sourceLookupDirector&gt;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#10;&amp;lt;javaProject name=&amp;quot;webAdminEJB&amp;quot;/&amp;gt;&amp;#10;&quot; typeId=&quot;org.eclipse.jdt.launching.sourceContainer.javaProject&quot;/&gt;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#10;&amp;lt;classpathContainer path=&amp;quot;org.eclipse.jst.j2ee.internal.module.container&amp;quot;/&amp;gt;&amp;#10;&quot; typeId=&quot;org.eclipse.jdt.launching.sourceContainer.classpathContainer&quot;/&gt;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#10;&amp;lt;javaProject name=&amp;quot;webAdminWeb&amp;quot;/&amp;gt;&amp;#10;&quot; typeId=&quot;org.eclipse.jdt.launching.sourceContainer.javaProject&quot;/&gt;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#10;&amp;lt;default/&amp;gt;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#10;&lt;/sourceContainers&gt;&#10;&lt;/sourceLookupDirector&gt;&#10;"/>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="server-id" value="21_10_13_10.342"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.jboss.Main"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--configuration=default --host=localhost   "/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/usr/local/jboss-4.0.5.GA/bin"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS_SERVER_TWIDDLE_" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS_SERVER_STOP_" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS_SERVER_TWIDDLE_" value="-s localhost:1099 -a jmx/rmi/RMIAdaptor    "/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;/usr/local/jboss-4.0.5.GA/bin/run.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.5.0_22&quot; path=&quot;2&quot; type=&quot;4&quot;/&gt;&#10;"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS_SERVER_START_" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS_SERVER_STOP_" value="-S -s localhost:1099   "/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS_SERVER_START_" value="--configuration=default --host=localhost   "/>
+<stringAttribute key="__ACTION__" value="__ACTION_STARTING__"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.jdt.launching.sourceLocator.JavaSourceLookupDirector"/>
+</launchConfiguration>

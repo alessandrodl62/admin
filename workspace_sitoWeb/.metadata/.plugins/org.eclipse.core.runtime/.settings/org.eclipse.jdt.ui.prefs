@@ -1,0 +1,18 @@
+#Mon Nov 25 16:02:46 CET 2013
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+proposalOrderMigrated=true
+tabWidthPropagated=true
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates/>
+useAnnotationsPrefPage=true
+spelling_locale=it_IT
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.GenerationType"/></lhs><lhs name\="net.sf.json.JsonConfig"><rhs name\="net.sf.json.JsonConfig"/></lhs><lhs name\="net.sf.json.processors.JsonValueProcessor"><rhs name\="commons.DateJsonValueProcessor"/><rhs name\="commons.TimeJsonValueProcessor"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="commomBean.OrganiDO"><rhs name\="commomBean.OrganiDO"/></lhs><lhs name\="javax.servlet.Servlet"><rhs name\="WebAdminServlet"/></lhs><lhs name\="javax.servlet.http.HttpServlet"><rhs name\="WebAdminServlet"/></lhs><lhs name\="javax.servlet.GenericServlet"><rhs name\="WebAdminServlet"/></lhs><lhs name\="javax.servlet.ServletConfig"><rhs name\="WebAdminServlet"/></lhs><lhs name\="WebAdminServlet"><rhs name\="WebAdminServlet"/></lhs><lhs name\="org.apache.commons.beanutils.Converter"><rhs name\="org.apache.commons.beanutils.locale.converters.DateLocaleConverter"/></lhs></history>
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jface.textfont=1|Monospace|10|0|GTK|1|;
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=10
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates/>
+eclipse.preferences.version=1
+fontPropagated=true
