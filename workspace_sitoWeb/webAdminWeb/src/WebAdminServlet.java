@@ -26,6 +26,7 @@ import net.sf.json.JsonConfig;
  *
  */
 /* prova di invio su github */
+/* variazione dopo rename del repository */
 
 
 public class WebAdminServlet extends HttpServlet implements Servlet {
